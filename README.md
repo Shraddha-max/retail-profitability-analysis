@@ -370,26 +370,36 @@ This project helps management determine:
 5. Which categories, regions, and customers represent profitability
    risks?
 
-## Final Business Conclusion
 
-The final conclusion should be based on the quantitative results from
-the SQL analysis and Power BI dashboard.
+# Final Business Conclusion
 
-Use this format after completing the analysis:
+## Answer: NO
 
-> **Conclusion: \(YES/NO\)**
->
-> **Finding 1:** Higher discount levels generated ***% realized margin
-> compared with ***% for lower discounts.
->
-> **Finding 2:** ___ region-month combinations experienced positive
-> revenue growth while profit declined.
->
-> **Finding 3:** ___ high-revenue customers had below-median margins
-> or above-average return rates.
+Increasing discounts are **not demonstrating profitable growth** in the analysis. The results show clear cases where higher discounting is associated with substantial margin erosion and periods where revenue grows while profit declines.
 
-The final YES/NO should be based on the actual analysis results rather
-than assumptions.
+### Three Quantitative Findings
+
+**1. Discounting is associated with major margin erosion in Electronics.**
+
+Electronics realized margin falls from **23.20% at Low Discount** to **5.33% at Medium Discount** and **-14.62% at High Discount**. This represents a **37.82 percentage-point decline** from Low to High Discount.
+
+**2. Revenue can grow while profit declines sharply.**
+
+In **West, April 2026**, realized revenue increased by **14.59%**, while realized profit decreased by **50.50%**. This is a direct example of growth without profitability.
+
+**3. High-revenue customers can still have weak profitability.**
+
+Customer **C1187** generated **₹205,404.42** in realized revenue but only **₹14,394.50** in realized profit, resulting in a realized margin of **7.01%**. The customer also had an average discount of **25.25%**.
+
+### Business Interpretation
+
+The analysis indicates that revenue growth should not be evaluated in isolation. Higher discounting can increase sales activity while reducing realized margins, and returns can further reduce realized revenue and profit.
+
+Therefore:
+
+> **Increasing discounts are not, by themselves, demonstrating profitable growth.**
+
+---
 
 ## Author
 
